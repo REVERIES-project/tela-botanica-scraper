@@ -1,0 +1,29 @@
+{
+  "name": "tela-botanica-scraper",
+  "version": "1.0.0",
+  "description": "Scraping SmartFlore description from TB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/REVERIES-project/tela-botanica-scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/REVERIES-project/tela-botanica-scraper/issues"
+  },
+  "homepage": "https://github.com/REVERIES-project/tela-botanica-scraper#readme",
+  "dependencies": {
+    "base64-img": "^1.0.4",
+    "bluebird": "^3.5.5",
+    "cheerio": "^1.0.0-rc.3",
+    "csv-parser": "^2.3.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.9",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
